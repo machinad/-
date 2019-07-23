@@ -1,0 +1,37 @@
+@charset "utf-8";
+/* CSS Document */
+.img_1{
+	width: 980px;height: 500px;
+}
+.new{
+	width: 900px;
+	text-align: center;
+	margin-bottom: 50px;
+}
+.new p{
+	display: block;
+	font-size: 30px;
+	font-weight: 600;
+	margin-top: 30px;margin-bottom: 30px;
+	color: #333;
+}
+.new ul{width: 900px;}
+.new ul li{
+	width: 900px;height: 200px;
+	border-bottom: 2px dashed #777;
+	list-style: none;
+	padding-top: 10px;
+}
+.new ul li a{
+	display: block;
+	width: 800px;
+	text-align: left;
+	text-decoration: none;
+	width: 900px;height: 200px;
+}
+.new ul li a h1{font-size: 25px;color: #000;display: block;}
+.new ul li a p{font-size: 15px;line-height: 30px;color: #666;display: block;}
+.new ul li a:hover{
+	background-color: #aaa;
+	color: #fff;
+}

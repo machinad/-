@@ -1,0 +1,7 @@
+@charset "utf-8";
+/* CSS Document */
+.imge_1 ul li{
+	float: left;
+	margin: 20px;
+	list-style: none;
+}

@@ -1,0 +1,23 @@
+@charset "utf-8";
+/* CSS Document */
+.nav_chenlie{
+	width: 980px;
+	border: 3px dashed #999;
+}
+.nav_chenlie ul li{
+	list-style: none;
+	width: 400px;height: 320px;
+	text-align: center;
+	float: left;
+	margin: 40px;
+}
+.nav_chenlie ul li a{
+	color: #000;
+	text-decoration: none;
+	line-height: 30px;
+	font-size: 20px;
+	display: block;
+}
+.nav_chenlie ul li a:hover{
+	color: #f00;
+}

@@ -1,0 +1,47 @@
+@charset "utf-8";
+/* CSS Document */
+*{margin: 0px auto;padding: 0px;}
+#box{width: 980px;background-color: #eaeaea;
+	background-image: url(../imge/diwen.png);
+	background-repeat: repeat-y;
+	background-position: center center;
+box-shadow: 10px 10px 30px #aaa,10px -10px 30px #aaa,-10px 10px 30px #aaa,-10px -10px 30px #aaa;
+}
+#body{width: 980px;}
+body{
+	background-color: #F1E3E3;
+    background-image:url(../imge/beijing_3.png);
+	background-repeat: repeat-y;
+	background-position: center center;
+}
+.logo{
+	width: 980px;height: 150px;
+	background-color: #ff0;
+	background-image: url(../imge/head_logo.png);
+	background-repeat: no-repeat;
+	background-position: 0px center;
+}
+.nav{
+	width: 980px;height: 50px;
+	background-color: #6B0204;
+}
+.nav ul li{
+	list-style: none;
+	float: left;
+}
+.nav ul li a{
+	text-decoration: none;
+	display: block;
+    width: 150px;height: 50px;
+	color: #fff;
+	text-align: center;
+	line-height: 50px;
+	font-weight: bold;
+}
+.nav ul li a:hover{
+	background-color:#490506;
+	border-bottom: 8px solid #770406;
+	border-top: 8px solid #770406;
+	border-left: 8px solid #500405;
+	border-right: 8px solid #500405;
+}
